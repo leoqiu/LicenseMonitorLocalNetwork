@@ -32,7 +32,10 @@ import com.leo.LicenseMonitorLocalNetwork.staticdata.LicLiteData;
 import com.leo.LicenseMonitorLocalNetwork.utils.UIUtil;
 
 
-
+/**
+ *
+ *   http://www.jetbrains.com/idea/webhelp/file-status-highlights.html
+ */
 public class StartGroupActivity extends Activity {
 
 	private GridView gridviewToolbar; // group grid tool bar
