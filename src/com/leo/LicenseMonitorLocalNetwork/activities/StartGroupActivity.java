@@ -38,6 +38,13 @@ import com.leo.LicenseMonitorLocalNetwork.utils.UIUtil;
  *
  *   add file to git repo
  *   git add -f *
+ *
+ *
+ *   1. Activity, strict mode ERROR fix
+ *   http://stackoverflow.com/questions/13765122/android-emulator-spams-logcat-with-service-com-android-exchange-exchangeservice
+ *
+ *   minqi
+ *
  */
 public class StartGroupActivity extends Activity {
 
