@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <ImageView 
+        android:src="@drawable/expander_group"
+		android:id="@+id/explist_indicator"
+		android:layout_width="20dip"
+		android:layout_height="20dip"/>
+
+    <TextView
+        android:id="@+id/notification_group_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification monitor list"
+        android:paddingLeft="30dip"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

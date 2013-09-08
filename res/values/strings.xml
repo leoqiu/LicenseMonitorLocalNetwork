@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">liclitelicense</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_start_group">Liclite License</string>
+    <string name="activity_title_render_in_time_result">In time result from lmgrd sever</string>
+
+    <!-- fragments inside msg -->
+    <string name="add_server_no_servername_or_lmgrdcmd">Please fill up required fields!</string>
+    <string name="add_server_successfully">Successfully add server into database!</string>
+    <string name="add_server_server_exist">This server already exists!</string>
+    <string name="login_no_user_or_pwd">Please fill up username and password</string>
+    
+    <!-- async task msg -->
+    <string name="load_servers_from_db">loading servers from database</string>
+    
+    
+    <!-- fragments defalut values -->
+    <string name="add_server_default_port">20</string>
+    <string name="add_server_default_server_timeout">7</string>
+    <string name="add_server_default_server_retry_times">3</string>
+    
+    <!-- image view description -->
+    <string name="server_condition">server_condition</string>
+    
+    <!-- alert dialog login -->
+    <string name="alert_dialog_username">User Name</string>
+    <string name="alert_dialog_password">Password</string>
+    <string name="alert_dialog_login_ok_button">OK</string>
+    <string name="alert_dialog_login_cancel_button">Cancel</string>
+    <string name="login_successfully">login successfully!</string>
+    <string name="login_failed">login failed, plz check network connection or if password is correct</string>
+    
+    <!-- list item onlongclick pop-up list menu strings-->
+    <string name="on_long_click_title">What do you want to do?</string>
+
+    <!-- notification and servers tabs string names -->
+    <string name="tab_servers">Servers</string>
+    <string name="tab_notifications">Notifications</string>   
+    <string name="activity_title_render_notification_result">Notifications Results</string>   
+</resources>
+
+
+
+
+

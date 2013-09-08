@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TableRow>
+	    <TextView
+		    android:id="@+id/notification_license_server_label"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="License Name: " />
+	    <TextView
+	        android:id="@+id/notification_license_server_value"
+	        android:layout_width="wrap_content"
+	        android:textColor="#DF0101"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+	</TableRow>
+    
+	<TableRow>
+	    <TextView
+		    android:id="@+id/notification_license_name_label"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="License Name: " />
+	    <TextView
+	        android:id="@+id/notification_license_name_value"
+	        android:layout_width="wrap_content"
+	        android:textColor="#DF0101"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+	</TableRow>
+
+	<TableRow>
+	    <TextView
+		    android:id="@+id/notification_license_user_name_label"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="User Name: " />
+	    <TextView
+	        android:id="@+id/notification_license_user_name_value"
+	        android:layout_width="wrap_content"
+	        android:textColor="#DF0101"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+	</TableRow>
+	
+	<TableRow>
+	    <TextView
+		    android:id="@+id/notification_polling_period_label"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Polling Period: " />
+	    <TextView
+	        android:id="@+id/notification_polling_period_value"
+	        android:layout_width="wrap_content"
+	        android:textColor="#DF0101"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+	</TableRow>
+	
+    <TableRow>
+        <TextView
+	        android:id="@+id/textview_is_notification_running_bg"
+	        android:layout_width="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" />
+	</TableRow>
+</TableLayout>
+
+

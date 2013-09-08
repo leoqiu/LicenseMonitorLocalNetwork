@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView 
+        android:id="@+id/item_server_pic" 
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/server_condition"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+        
+        <TextView
+	        android:id="@+id/item_server_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="1dp"/>
+        
+        <TextView
+	        android:id="@+id/item_server_login_time"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="10sp"
+	        android:layout_margin="3dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fillViewport="true">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:padding="8dp"	
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/textview_server_name_notification"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Server Name"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <AutoCompleteTextView
+	        android:id="@+id/auto_server_name_notification"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Server Name..." >
+	    </AutoCompleteTextView>
+	    
+	    <TextView
+	        android:id="@+id/textview_lmstat_cmd_loc_notification"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Lmstat cmd location"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <AutoCompleteTextView
+	        android:id="@+id/auto_lmstat_cmd_loc_notification"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="eg. /home/mbao/lmstat ..." >
+	    </AutoCompleteTextView>
+	
+	    <TextView
+	        android:id="@+id/textview_lmgrd_server_loc_notification"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Lmgrd server location"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <AutoCompleteTextView
+	        android:id="@+id/auto__lmgrd_server_loc_notification"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="eg. 5280@sjflex1..." >
+	    </AutoCompleteTextView>
+	    
+	    
+	    <TextView
+	        android:id="@+id/textview_license_name_notification"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="License Name"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <AutoCompleteTextView
+	        android:id="@+id/auto_license_name_notification"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="eg. Virtuoso_Spectre..." >
+	    </AutoCompleteTextView>
+	    
+	    <TextView
+	        android:id="@+id/textview_license_user_name_notification"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="User Name"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <AutoCompleteTextView
+	        android:id="@+id/auto_license_user_name_notification"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="eg. huiyuan, ramez ..." >
+	    </AutoCompleteTextView>
+	    
+	    <TextView
+	        android:id="@+id/textview_polling_period_notification"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Polling Period (minute)"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <Spinner
+	        android:id="@+id/spinner_polling_period_notification"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+
+	    <Button
+	       android:id="@+id/button_add_notification"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:text="Add this notification configuration" />
+	    
+	</LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
