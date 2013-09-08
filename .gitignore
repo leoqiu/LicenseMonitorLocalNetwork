@@ -1,0 +1,15 @@
+*.iml
+*.ipr
+*.iws
+.idea/
+local.properties
+
+# Generic Android ignores
+bin/
+target
+gen/
+out/
+proguard-project.txt
+project.properties
+ant.properties
+build.xml
