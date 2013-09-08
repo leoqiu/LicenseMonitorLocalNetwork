@@ -35,6 +35,9 @@ import com.leo.LicenseMonitorLocalNetwork.utils.UIUtil;
 /**
  *
  *   http://www.jetbrains.com/idea/webhelp/file-status-highlights.html
+ *
+ *   add file to git repo
+ *   git add -f *
  */
 public class StartGroupActivity extends Activity {
 
