@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+import android.util.Log;
+import com.leo.LicenseMonitorLocalNetwork.staticdata.LTags;
 import com.leo.LicenseMonitorLocalNetwork.staticdata.LicLiteData;
 
 import ch.ethz.ssh2.ChannelCondition;
@@ -149,9 +151,10 @@ public class NetWorkUtil {
         try {
         	session = connection.openSession();
         	scp = connection.createSCPClient();
-//minqi
-//session.execCommand(cmdMinqi);
+
         	session.execCommand(cmd);
+            Log.d(LTags.SSH_PIPE, "ssh session cmd is : " + cmd);
+
 int i = session.waitForCondition(ChannelCondition.EOF, 5000);
 //int i = session.waitUntilDataAvailable(1500);
 System.out.println("ChannelCondition.EOF --> " + i);
@@ -159,16 +162,12 @@ System.out.println("ChannelCondition.EOF --> " + i);
         	/*
         	 * if file exist then download...
         	 */
-        	
-//        	scp.get("/home/leo2/Desktop/log/licliteserver-*", LicLiteData.licLiteDataDir);
-        	scp.get("/home/leo/Desktop/log/licliteserver-*", localDir);
-//minqi
-//scp.get("/tmp/licliteserver-*", LicLiteData.licLiteDataDir);
-
+            //get tmp file from /tmp/
+        	scp.get("/tmp/licliteserver-*", localDir);
 
         	session2 = connection.openSession();
 //        	session2.execCommand("rm /home/leo2/Desktop/log/licliteserver-*");
-        	session2.execCommand("rm /home/leo/Desktop/log/licliteserver-*");
+        	session2.execCommand("rm /tmp/licliteserver-*");
 //minqi
 //session2.execCommand("rm /tmp/licliteserver-*");
 

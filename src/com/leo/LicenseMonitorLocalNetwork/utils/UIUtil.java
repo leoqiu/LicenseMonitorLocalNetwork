@@ -188,8 +188,9 @@ public class UIUtil{
 		String cmd = null;
 		
 		//Temporary work around
+        //for local network testing
 		if(serverName.contains("192")){
-			cmd = lmstatLoc;
+			cmd = "cat " + lmstatLoc + "/lic.log" + " > /tmp/licliteserver-`date +\"%Y-%m-%d-%H-%M-%S\"`";
 		}else{
 			cmd = lmstatLoc + " -a -c " + lmgrdServeLoc + " > /tmp/licliteserver-`date +\"%Y-%m-%d-%H-%M-%S\"`";
 		}

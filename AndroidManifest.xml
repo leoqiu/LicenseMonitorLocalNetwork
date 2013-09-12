@@ -26,6 +26,21 @@
             </intent-filter>
         </activity>
 
+        <activity
+                android:name=".activities.RenderInTimeResultActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/activity_title_render_in_time_result"
+                android:theme="@style/CustomTitleBarTheme" >
+
+        </activity>
+        <activity
+                android:name=".activities.RenderInTimeResultActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/activity_title_render_in_time_result"
+                android:theme="@style/CustomTitleBarTheme" >
+
+        </activity>
+
         <service android:name=".services.LicSenseLiteNotificationService" />
 
     </application>
